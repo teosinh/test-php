@@ -1,0 +1,24 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "description": "reviewapp-test-php",
+  "env": {
+    "Key1": "1",
+    "Key2": "2"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "test-php",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
